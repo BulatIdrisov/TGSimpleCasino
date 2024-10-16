@@ -7,10 +7,10 @@ import db as db
 import keyboards as kb
 import casino
 
-bot = Bot("7006410780:AAG8UqeylJFu-uZMH1sSd5DGtgtt8IGG4ZI")
+bot = Bot("TOKEN")
 storage = MemoryStorage()
 dp = Dispatcher(bot,storage=storage)
-ADMIN_ID = '918759409'
+ADMIN_ID = 'ADMIN_ID'
 admins = [ADMIN_ID]
 async def on_startup(_):
     await db.db_start()
